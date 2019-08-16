@@ -1,1 +1,1 @@
-App para divulgação Maratona Cultural de Florianópolis
+Flutter App para divulgação Maratona Cultural de Florianópolis
