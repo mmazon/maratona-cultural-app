@@ -1,1 +1,1 @@
-# maratona-cultural-app
+App para divulgação Maratona Cultural de Florianópolis
