@@ -12,7 +12,16 @@ class MaratonaCultural extends StatefulWidget{
            child: ListView(
             children: <Widget>[
               ListTile(
-                
+                title: Text("Home", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
+                trailing: Icon(Icons.home, color: Color(0xff46B7A0)),
+                 onTap: () {       
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => GoToHome()),
+                    );
+                },
+              ),
+              ListTile(
                 title: Text("Mapa do Evento", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.location_on, color: Color(0xff46B7A0)),
                  onTap: () {       
