@@ -11,7 +11,10 @@ class MaratonaCultural extends StatefulWidget{
       return new Drawer(
            child: ListView(
             children: <Widget>[
-              ListTile(
+            Card(
+            color: Colors.white,
+            elevation: 2.0,
+            child:ListTile(
                 title: Text("Home", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.home, color: Color(0xff46B7A0)),
                  onTap: () {       
@@ -20,15 +23,21 @@ class MaratonaCultural extends StatefulWidget{
                       MaterialPageRoute(builder: (context) => GoToHome()),
                     );
                 },
-              ),
-              ListTile(
+              )),
+              Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Mapa do Evento", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.location_on, color: Color(0xff46B7A0)),
                  onTap: () {       
                     launchMap();
                 },
-              ),
-              ListTile(
+              )),
+              Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Dia 16", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.today, color: Color(0xff46B7A0)),
                 onTap: () {       
@@ -37,8 +46,11 @@ class MaratonaCultural extends StatefulWidget{
                       MaterialPageRoute(builder: (context) => GoToDia16()),
                     );
                 },
-              ),
-              ListTile(
+              )),
+              Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Dia 17", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.today, color: Color(0xff46B7A0)),
                 onTap: () {       
@@ -47,8 +59,11 @@ class MaratonaCultural extends StatefulWidget{
                       MaterialPageRoute(builder: (context) => GoToDia17()),
                     );
                 },
-              ),
-              ListTile(
+              )),
+              Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Dia 18", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.today, color: Color(0xff46B7A0)),
                 onTap: () {       
@@ -57,8 +72,11 @@ class MaratonaCultural extends StatefulWidget{
                       MaterialPageRoute(builder: (context) => GoToDia18()),
                     );
                 },
-              ),
-             ListTile(
+              )),
+             Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Orquestra de Baterias", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.library_music, color: Color(0xff46B7A0)),
                 onTap: () {       
@@ -67,8 +85,11 @@ class MaratonaCultural extends StatefulWidget{
                       MaterialPageRoute(builder: (context) => GoToOrquestra()),
                     );
                 },
-              ),
-              ListTile(
+              )),
+              Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Maratoninha", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.local_library, color: Color(0xff46B7A0)),
                 onTap: () {       
@@ -77,8 +98,11 @@ class MaratonaCultural extends StatefulWidget{
                       MaterialPageRoute(builder: (context) => GoToMaratoninha()),
                     );
                 },
-              ),
-              ListTile(
+              )),
+              Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Circuito de Bares", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.local_drink, color: Color(0xff46B7A0)),
                 onTap: () {       
@@ -87,8 +111,11 @@ class MaratonaCultural extends StatefulWidget{
                       MaterialPageRoute(builder: (context) => GoToBares()),
                     );
                 },
-              ),
-              ListTile(
+              )),
+              Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Parceiros", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.next_week, color: Color(0xff46B7A0)),
                 onTap: () {       
@@ -97,14 +124,17 @@ class MaratonaCultural extends StatefulWidget{
                       MaterialPageRoute(builder: (context) => GoToParceiros()),
                     );
                 }, 
-              ),
-              ListTile(
+              )),
+              Card(
+                color: Colors.white,
+                elevation: 2.0,
+                child: ListTile(
                 title: Text("Instagram", style: TextStyle(fontWeight: FontWeight.w800, color: Color(0xff46B7A0), fontSize: 18.0),),
                 trailing: Icon(Icons.camera_alt, color: Color(0xff46B7A0)),
                 onTap: () {       
                     launchInstagram();
                 }, 
-              )
+              ))
             ],
           ),
         );
